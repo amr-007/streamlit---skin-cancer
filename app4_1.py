@@ -2,11 +2,7 @@ import streamlit as st
 import tensorflow as tf
 # import the necessary packages for image recognition
 from tensorflow.keras.applications.xception import preprocess_input
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing.image import img_to_array
-from tensorflow.keras.preprocessing.image import load_img
 import numpy as np
-import cv2
 from PIL import Image
 from io import BytesIO
 import pandas as pd
